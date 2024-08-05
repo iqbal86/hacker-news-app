@@ -17,8 +17,14 @@ This project is a web application that fetches and displays stories from Hacker 
   ![Alt text](image3.png)
 - User Feedback: Loading states, such as the CircularProgress spinner, and error messages are integrated into the UI to provide users with clear feedback during interactions.
   ![Alt text](image5.png)
-  ![Alt text](image1.png)
-  ![Alt text](image2.png)
+
+---
+
+![Alt text](image1.png)
+
+---
+
+![Alt text](image2.png)
 
 ## Best Practices in React
 
