@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1722861017204" clover="3.2.0">
+  <project timestamp="1722861017205" name="All files">
+    <metrics statements="92" coveredstatements="92" conditionals="19" coveredconditionals="19" methods="34" coveredmethods="34" elements="145" coveredelements="145" complexity="0" loc="92" ncloc="92" packages="11" files="13" classes="13"/>
+    <package name="components.HackerNewsPageFooter">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HackerNewsPageFooter.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/components/HackerNewsPageFooter/HackerNewsPageFooter.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.HackerNewsPageHeader">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="HackerNewsPageHeader.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/components/HackerNewsPageHeader/HackerNewsPageHeader.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="10" type="stmt"/>
+        <line num="88" count="10" type="stmt"/>
+        <line num="90" count="10" type="stmt"/>
+        <line num="92" count="10" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="96" count="10" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="100" count="10" type="stmt"/>
+        <line num="155" count="70" type="stmt"/>
+        <line num="180" count="70" type="stmt"/>
+        <line num="196" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.HackerNewsPageList">
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <file name="HackerNewsPageList.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/components/HackerNewsPageList/HackerNewsPageList.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="7" type="stmt"/>
+        <line num="48" count="51" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.HackerNewsPageListItem">
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="HackerNewsPageListItem.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/components/HackerNewsPageListItem/HackerNewsPageListItem.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="42" count="55" type="stmt"/>
+        <line num="45" count="55" type="stmt"/>
+        <line num="46" count="55" type="stmt"/>
+        <line num="47" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="55" type="stmt"/>
+        <line num="52" count="55" type="stmt"/>
+        <line num="53" count="55" type="stmt"/>
+        <line num="54" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="54" type="stmt"/>
+        <line num="56" count="54" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="55" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.shared.ListSkeleton">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ListSkeleton.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/components/shared/ListSkeleton/ListSkeleton.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="useFetchStories.ts" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/hooks/useFetchStories.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages">
+      <metrics statements="8" coveredstatements="8" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <file name="HackerNewsPage.container.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/pages/HackerNewsPage.container.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+      <file name="HackerNewsPage.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/pages/HackerNewsPage.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="storiesService.ts" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/services/storiesService.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="test">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="RenderWrapper.tsx" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/test/RenderWrapper.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="15" type="stmt"/>
+        <line num="17" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="test.mocks">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="mockData.ts" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/test/mocks/mockData.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+      <file name="mockIAxiosClient.ts" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/test/mocks/mockIAxiosClient.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utility">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="AxiosClient.ts" path="/Users/iqbal/Documents/Projects/hacker-new-app/src/utility/AxiosClient.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
