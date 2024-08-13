@@ -49,6 +49,7 @@ const HackerNewsPageListItem = ({
 
   // Format the URL as per the requirement
   const formatUrl = (url: string) => {
+    if (!url) return 'N/A'
     const parsedUrl = new URL(url)
     const hostname = parsedUrl.hostname.replace(/^www\./, '') // Remove 'www' if it exists
     if (hostname === 'github.com') {
