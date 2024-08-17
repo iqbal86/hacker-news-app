@@ -1,5 +1,7 @@
 # Hacker News Reader
 
+https://hackernewsapp86.netlify.app/
+
 ## Overview
 
 This project is a web application that fetches and displays stories from Hacker News API. It is built using React and utilizes the React Query library for efficient data fetching and caching. This README provides an overview of the architecture and design principles followed in the application.
