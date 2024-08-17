@@ -104,7 +104,7 @@ const HackerNewsPageListItem = ({
         </Typography>
         <Typography className={classes.subtext}>
           {`${score} points`}
-          <Link href={''}>{`by ${author}`}</Link>
+          <Link href={''} sx={{ marginRight: '5px' }}>{`by ${author}`}</Link>
           <span
             data-testid={`${hackerNewsPageListItemPrefix}_hourAgo-${index}`}
           >{`${timeAgo(time)}`}</span>
