@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import ApiProvider from './common/ApiProvider.tsx'
 import { HackerNewsPageContainer } from './pages/HackerNewsPage.container.tsx'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
@@ -17,7 +17,7 @@ const queryClient = new QueryClient({
   },
 })
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <ApiProvider>
@@ -27,4 +27,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </ApiProvider>
     </ThemeProvider>
   </React.StrictMode>,
+  document.getElementById('root')!,
 )
