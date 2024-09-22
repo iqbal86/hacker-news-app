@@ -87,7 +87,7 @@ const HackerNewsPageHeader = () => {
   const classes = useStyles()
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null)
 
-  const pages = ['New', 'Past', 'Comments', 'Ask', 'Show', 'Jobs', 'Submit']
+  const pages = ['New!!', 'Past', 'Comments', 'Ask', 'Show', 'Jobs', 'Submit']
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget)
